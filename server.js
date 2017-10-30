@@ -37,7 +37,7 @@ hbs.registerHelper('screamIt',(text)=>{
 
 app.get("/",(req,res)=>{
     res.render("home",{
-        pageTitle:"Home",
+        pageTitle:"Home Edit.1",
         WelcomeMessage:"Welcome !"
     })
 });
